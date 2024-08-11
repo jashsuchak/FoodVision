@@ -1,4 +1,5 @@
 # FoodVision
 
-The FoodVision project utilizes a custom dataset specifically designed to classify images into three categories: steak, sushi, and pizza. It includes preprocessing steps to prepare the data for training.
-The project implements a TinyVGG model, a lightweight convolutional neural network, to accurately classify the images into the three predefined classes.
+1.  The FoodVision project incorporates a custom dataset tailored to the task of classifying food images into three distinct categories: steak, sushi, and pizza. The project includes comprehensive data preprocessing steps, such as resizing images, normalization, and data augmentation techniques, to enhance the model's ability to generalize from the training data. This ensures that the dataset is optimally prepared for the subsequent stages of model training and evaluation.
+
+2. FoodVision leverages the TinyVGG model, a streamlined version of the VGG (Visual Geometry Group) network, known for its effectiveness in image classification tasks. Despite its reduced complexity, TinyVGG is designed to maintain high accuracy by using a series of convolutional layers followed by max pooling and fully connected layers. The model is trained to distinguish between the three food classes—steak, sushi, and pizza—by learning the unique features and patterns associated with each type of food, resulting in a robust classifier suitable for deployment in real-world applications.
